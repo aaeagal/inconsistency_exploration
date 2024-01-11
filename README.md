@@ -13,3 +13,5 @@
 5. "Write a java function that given the coordinates of two rectilinear rectangles in a 2D plane, returns the total area covered by the two rectangles. The first rectangle is defined by its bottom-left corner (ax1, ay1) and its top-right corner (ax2, ay2). The second rectangle is defined by its bottom-left corner (bx1, by1) and its top-right corner (bx2, by2). Constraints: -10^4 <= ax1 <= ax2 <= 10^4, -10^4 <= ay1 <= ay2 <= 10^4, -10^4 <= bx1 <= bx2 <= 10^4, -10^4 <= by1 <= by2 <= 10^4. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND."
 
 6. Write a java function that given an array of integers nums, returns a partitioned array of two non-empty subsets such that the difference in the sum of elements in each subset is minimized. The function should return this minimum difference. Constraints: 1 <= nums.length <= 20, 0 <= nums[i] <= 100. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND."
+
+![image](prompts.png)
