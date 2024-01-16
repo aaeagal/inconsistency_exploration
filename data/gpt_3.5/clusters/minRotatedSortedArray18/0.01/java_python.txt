@@ -1,0 +1,4467 @@
+
+
+****** Cluster 0 ******
+public static Integer func_b2525366a9c94211ab74c255c41a468e(Integer[] nums, Integer target){
+    // 1
+    int start = 0;
+    // 2
+    int end = nums.length - 1;
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_e3b33402823d4a8c9727afef2f717293(Integer[] nums, Integer target){
+    // 24
+    int left = 0;
+    // 25
+    int right = nums.length - 1;
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 1 ******
+public static Integer func_f23d4433cad94c5cb74126515220458a(Integer target, Integer[] nums){
+    // 1
+    int start = 0;
+    // 2
+    int end = nums.length - 1;
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_42b1132a6d224946a59cb7b4bc5a6f08(Integer target, Integer[] nums){
+    // 24
+    int left = 0;
+    // 25
+    int right = nums.length - 1;
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 2 ******
+public static Integer func_c2718cfb19174f7a8022fe1099c41702(Integer[] nums, Integer target){
+    // 1
+    int start = 0;
+    // 2
+    int end = nums.length - 1;
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_070660aa6ae14e188208264335a8136b(Integer[] nums, Integer target){
+    // 24
+    int left = 0;
+    // 25
+    int right = nums.length - 1;
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 3 ******
+public static Integer func_53ce87c0b3944ea793427e9df00bfd5a(Integer target, Integer[] nums){
+    // 1
+    int start = 0;
+    // 2
+    int end = nums.length - 1;
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_1a76700bdb334fb3a0f5b96d1674980a(Integer target, Integer[] nums){
+    // 24
+    int left = 0;
+    // 25
+    int right = nums.length - 1;
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 4 ******
+public static Integer func_87a5de07496e47a1808b757f13fd3f2b(Integer start, Integer[] nums, Integer end, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_2fd37d387d8b4bbaae2a951afb1904a7(Integer left, Integer[] nums, Integer right, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 5 ******
+public static Integer func_4f2132b5472c431cbc2466cfcf4f1472(Integer[] nums, Integer start, Integer end, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_69071262cf8247db9527266267d6e39d(Integer[] nums, Integer left, Integer right, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 6 ******
+public static Integer func_cc2c02f9f9ce417283c3fe972f8797de(Integer[] nums, Integer end, Integer target, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_04a25575a5bf43c490bb3f0675e71e01(Integer[] nums, Integer right, Integer target, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 7 ******
+public static Integer func_6f873606efe84985a0ab61a475f46227(Integer[] nums, Integer end, Integer start, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_a782939affc042aa9b0c0ba2e2e8786b(Integer[] nums, Integer right, Integer left, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 8 ******
+public static Integer func_769a3c58256940b2bdc19e6d9b489a3b(Integer start, Integer end, Integer[] nums, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_aee480c6c6484d348e69dfbd4257649d(Integer left, Integer right, Integer[] nums, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 9 ******
+public static Integer func_f69d14a4f9f5471981920a85361940ac(Integer end, Integer start, Integer[] nums, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_37bd70f96a674aad8c65a0550758834d(Integer right, Integer left, Integer[] nums, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 10 ******
+public static Integer func_b090df394d8642d58d14d9506deced69(Integer end, Integer[] nums, Integer start, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_db9d1ba495694e7db9dd2f40b7a15230(Integer right, Integer[] nums, Integer left, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 11 ******
+public static Integer func_3c106ce160464acf9ff93aaedc08ff25(Integer end, Integer[] nums, Integer target, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_0e7908d4e2644f49b477a0563658698b(Integer right, Integer[] nums, Integer target, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 12 ******
+public static Integer func_06f92886594d4368a3c790cd6af78c2c(Integer start, Integer end, Integer target, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_b4acd623271a4d3581a59a3ab1e0d87a(Integer left, Integer right, Integer target, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 13 ******
+public static Integer func_b835d21692094a858114b55ad626be40(Integer end, Integer start, Integer target, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_98a129cf68c34a8c91abae5d0c325cf3(Integer right, Integer left, Integer target, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 14 ******
+public static Integer func_56b877f3c64944cfb35f121820d4cd6f(Integer end, Integer target, Integer start, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_f7dde9ff6e1444f0ab3f03c1e4790e11(Integer right, Integer target, Integer left, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 15 ******
+public static Integer func_109501c7024c446283e26046600e209b(Integer end, Integer target, Integer[] nums, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_edb5c169496b4be387b6a154dae0aa0d(Integer right, Integer target, Integer[] nums, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 16 ******
+public static Integer func_69050e7a5dc14e76a43f60fc0ca6f83c(Integer[] nums, Integer start, Integer target, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_51b3fdb77b4842c6be7221e528d9035d(Integer[] nums, Integer left, Integer target, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 17 ******
+public static Integer func_1fdfba0f29b14456b293c7da2a454fa2(Integer start, Integer[] nums, Integer target, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_40f1d8bb85dd4df68360678e3411315f(Integer left, Integer[] nums, Integer target, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 18 ******
+public static Integer func_14670cb2e1d44256b0751c67a68bd0b9(Integer[] nums, Integer target, Integer start, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_8a8ab662cc314d85a430219c671f86c8(Integer[] nums, Integer target, Integer left, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 19 ******
+public static Integer func_22c37a0d039d4800a9f3d994c9ef925d(Integer[] nums, Integer target, Integer end, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_8cf8a32b78ef488e991ebd015cea86c7(Integer[] nums, Integer target, Integer right, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 20 ******
+public static Integer func_839d7f09727b422a87de3b102ff64661(Integer start, Integer target, Integer[] nums, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_8fafc328d54147289c98767f27bc84a1(Integer left, Integer target, Integer[] nums, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 21 ******
+public static Integer func_b3cbca5a6791471ca9ee43beb3fc6515(Integer target, Integer start, Integer[] nums, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_4ff57f56e49b4a169697327d92dba15b(Integer target, Integer left, Integer[] nums, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 22 ******
+public static Integer func_d8b2042a8c6a41d7ae5130a3bc949099(Integer target, Integer[] nums, Integer start, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_34e5f5ede7984ebca1e40521b9da9918(Integer target, Integer[] nums, Integer left, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 23 ******
+public static Integer func_828d3ac4e7654ab1b71c1d8363a3cb1e(Integer target, Integer[] nums, Integer end, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_9d6689c2d69b4ff399a12702a010fe58(Integer target, Integer[] nums, Integer right, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 24 ******
+public static Integer func_9f5ae2185fbf44d4bddbc8a5e476a65b(Integer target, Integer start, Integer end, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_d7324cc5d22641b1a493e3685ea61bf5(Integer target, Integer left, Integer right, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 25 ******
+public static Integer func_d469c2efa5d647479edc5614f22f8843(Integer start, Integer target, Integer end, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_f31b2cfd67834c35a2653575e446c4a6(Integer left, Integer target, Integer right, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 26 ******
+public static Integer func_e42398a20fa84408b6430a13cf2e0f7a(Integer target, Integer end, Integer start, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_fd7f24125a19416bbef450ec8f610df0(Integer target, Integer right, Integer left, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 27 ******
+public static Integer func_5791d34fdceb42588fc608b41e8ca1cd(Integer target, Integer end, Integer[] nums, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return start;
+}
+public static Integer func_4df8ee8f84884013b3b27564aaa26cc8(Integer target, Integer right, Integer[] nums, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 28 ******
+public static Integer func_5e3bcdc12c6b4d66b79c893a79a90a2c(Integer[] nums, Integer start, Integer end, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_fb41ad52a4a44126a38532b8b9ca40c1(Integer[] nums, Integer left, Integer right, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 29 ******
+public static Integer func_08a942382ca94f358d9a646ce8225135(Integer start, Integer[] nums, Integer end, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_19bbb8e7bf58437a89220943179633bf(Integer left, Integer[] nums, Integer right, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 30 ******
+public static Integer func_a6e3d7214e404482b06da79de5c06001(Integer[] nums, Integer end, Integer start, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_73138d55bd3746b3836372b98a7b94a1(Integer[] nums, Integer right, Integer left, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 31 ******
+public static Integer func_f64574a7b46f4a0e89bfa4bcd49043d7(Integer[] nums, Integer end, Integer target, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_8e2f5e7608274ba4add339cbd1d07066(Integer[] nums, Integer right, Integer target, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 32 ******
+public static Integer func_7680a99ce2e84ea2a9d8b7c6afe58a5b(Integer start, Integer end, Integer[] nums, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_c4d937b229624bfdb78aaea3303b879a(Integer left, Integer right, Integer[] nums, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 33 ******
+public static Integer func_a9b50f5b64ca43b6a4ae13af153276ed(Integer end, Integer start, Integer[] nums, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_9aee4ee437b24a12b563dbeeb75e404f(Integer right, Integer left, Integer[] nums, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 34 ******
+public static Integer func_79dde3dd249e47cca3f1a09c3d3b82b6(Integer end, Integer[] nums, Integer start, Integer target){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_522c6af92ee140e68c13ce067578c60a(Integer right, Integer[] nums, Integer left, Integer target){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 35 ******
+public static Integer func_fdaf05d8daa14bfbb7478c9d7e8c6ccb(Integer end, Integer[] nums, Integer target, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_d6cefbb8e98b44dbab18c9625ebe9c0f(Integer right, Integer[] nums, Integer target, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 36 ******
+public static Integer func_46d548bf289c4ed9b9f8040e240a04d1(Integer start, Integer end, Integer target, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_8f977af86be54fdaaeb4e15d4304b80a(Integer left, Integer right, Integer target, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 37 ******
+public static Integer func_83f7a76a5fd747b88cc13deef44a14d5(Integer end, Integer start, Integer target, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_df207180fb964073b7712d6d349d5000(Integer right, Integer left, Integer target, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 38 ******
+public static Integer func_433bdec844104189a47c4c89ff9eecd0(Integer end, Integer target, Integer start, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_e606bf21f1ab4cda97bb35cef5c01cda(Integer right, Integer target, Integer left, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 39 ******
+public static Integer func_575cae167476425e84e525a3eb7da9a1(Integer end, Integer target, Integer[] nums, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_b495473ac724487ba05f05a30778d1b2(Integer right, Integer target, Integer[] nums, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 40 ******
+public static Integer func_ddabc4533e124b18bfee40dbad5dd3ea(Integer start, Integer[] nums, Integer target, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_f98fb105c948499bb327bfba5d34fc87(Integer left, Integer[] nums, Integer target, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 41 ******
+public static Integer func_57374e2b22e94d0d9b6fa2726ddae122(Integer[] nums, Integer start, Integer target, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_f471424c31c847e2995eda4356dd7c68(Integer[] nums, Integer left, Integer target, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 42 ******
+public static Integer func_ffaccb84514e42d7a56730578a6fd4b5(Integer[] nums, Integer target, Integer start, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_f0fe071501ae45bb810cdd0b53d4471b(Integer[] nums, Integer target, Integer left, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 43 ******
+public static Integer func_10e6115a27ac46c49eef591ec858c801(Integer[] nums, Integer target, Integer end, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_c32dd4c9387b475b97d744f9d6e3d995(Integer[] nums, Integer target, Integer right, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 44 ******
+public static Integer func_bdc64c2a46b84bda9eda5bbc19e9c51e(Integer start, Integer target, Integer[] nums, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_30e375807c564d13860daf78a8442d77(Integer left, Integer target, Integer[] nums, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 45 ******
+public static Integer func_74c6212ec0704b708e7b66f01afb9b61(Integer target, Integer start, Integer[] nums, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_075cc9f986a94778bd27d5427fbdf027(Integer target, Integer left, Integer[] nums, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 46 ******
+public static Integer func_fbeacbaaedcd44d8b42fa2b57ecfd6d7(Integer target, Integer[] nums, Integer start, Integer end){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_877089a5796145318fdc745e2cc197e0(Integer target, Integer[] nums, Integer left, Integer right){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 47 ******
+public static Integer func_0f40377e25a64598b0729679ac29f74d(Integer target, Integer[] nums, Integer end, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_09efe558a6f94380890f47c6b8a19d65(Integer target, Integer[] nums, Integer right, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 48 ******
+public static Integer func_a562f04e826b4680852cacf63bce812b(Integer start, Integer target, Integer end, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_25a61d012d054088a9380669a3a43089(Integer left, Integer target, Integer right, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 49 ******
+public static Integer func_07dab61c435b48aaa98c1b799bc69d93(Integer target, Integer start, Integer end, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_b6bafba5fb064aac8c6ca2a403e82189(Integer target, Integer left, Integer right, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 50 ******
+public static Integer func_dcbd0f9347924c12aee82c824a0fc392(Integer target, Integer end, Integer start, Integer[] nums){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_abec181aef93444aac9efd7611c5891e(Integer target, Integer right, Integer left, Integer[] nums){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 51 ******
+public static Integer func_babac7d9df41433cb91616689fa1a2c8(Integer target, Integer end, Integer[] nums, Integer start){
+    while (start <= end) {
+        // 3
+        // 4
+        int mid = start + (end - start) / 2;
+        if (nums[mid] == target) {
+            // 5
+            return mid;
+        }
+        if (nums[start] <= nums[mid]) {
+            // 6
+            if (target >= nums[start] && target < nums[mid]) {
+                // 7
+                // 8
+                end = mid - 1;
+            } else {
+                // 9
+                // 10
+                start = mid + 1;
+            }
+        } else {
+            // 11
+            if (target > nums[mid] && target <= nums[end]) {
+                // 12
+                // 13
+                start = mid + 1;
+            } else {
+                // 14
+                // 15
+                end = mid - 1;
+            }
+        }
+    }
+    return end;
+}
+public static Integer func_31e0ac3827bf48f2934be53814432acd(Integer target, Integer right, Integer[] nums, Integer left){
+    while (left <= right) {
+        // 26
+        // 27
+        int mid = left + (right - left) / 2;
+        if (// 28
+        nums[mid] == target) {
+            return mid;
+        } else if (// 29
+        nums[left] <= nums[mid]) {
+            if (target >= nums[left] && target < nums[mid]) {
+                // 30
+                // 31
+                right = mid - 1;
+            } else {
+                // 32
+                // 33
+                left = mid + 1;
+            }
+        } else // 34
+        {
+            if (target > nums[mid] && target <= nums[right]) {
+                // 35
+                // 36
+                left = mid + 1;
+            } else {
+                // 37
+                // 38
+                right = mid - 1;
+            }
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 52 ******
+public static Integer func_71713f2dc35b4b7d8982c2b8dcd02f73(Integer[] nums){
+    // 16
+    int left = 0;
+    // 17
+    int right = nums.length - 1;
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_4982b261a2b34f0f8b8c24e6d495c989(Integer[] nums){
+    // 16
+    int left = 0;
+    // 17
+    int right = nums.length - 1;
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_a7e3065c67d34c75af049b1ec9233ef1(Integer[] nums){
+    // 39
+    int left = 0;
+    // 40
+    int right = nums.length - 1;
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_29ff5eb68d084b70847672aa84a50941(Integer[] nums){
+    // 39
+    int left = 0;
+    // 40
+    int right = nums.length - 1;
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 54 ******
+public static int func_84afea5835804673b4f25a2ef5afadfa(Integer[] nums){
+    // 16
+    int left = 0;
+    // 17
+    int right = nums.length - 1;
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return nums[left];
+}
+public static int func_dd06fbf4527d400d8cdd192ed1375038(Integer[] nums){
+    // 39
+    int left = 0;
+    // 40
+    int right = nums.length - 1;
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return nums[left];
+}
+public static int func_02f2e8be72a74f6da5b799e0fcb398fa(Integer[] nums){
+    // 47
+    int left = 0, right = nums.length - 1;
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return nums[left];
+}
+
+
+****** Cluster 55 ******
+public static Integer func_9ec86a88ae14424a93d0d7e960142d11(Integer right, Integer left, Integer[] nums){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_2d4cc95c0cc249f89ee76278df76e42c(Integer right, Integer left, Integer[] nums){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_cc4d288674274f9a863da5dd3fbe2060(Integer right, Integer left, Integer[] nums){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 56 ******
+public static Integer func_21226b0ba8154dd2a430678e67e84c5c(Integer left, Integer right, Integer[] nums){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_79a37d505e8d45a89a7bc02b98f511b0(Integer left, Integer right, Integer[] nums){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_a3475c8dce4b499595f4d4eabd5763b4(Integer left, Integer right, Integer[] nums){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 57 ******
+public static Integer func_a45771eb8d7445ceb2399149c84a9246(Integer left, Integer[] nums, Integer right){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_9c7fadb561ba43f490802ea5e4a0f6d5(Integer left, Integer[] nums, Integer right){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_c5266534e5d94377843d44f6f6c07eb6(Integer left, Integer[] nums, Integer right){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 58 ******
+public static Integer func_6e549905023f4cc29c02dbc27b807ea0(Integer right, Integer[] nums, Integer left){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_f0097c4630a1484dbed926deb6006cd5(Integer right, Integer[] nums, Integer left){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_75ff16932e7a4cc69adc286fc564c0cc(Integer right, Integer[] nums, Integer left){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 59 ******
+public static Integer func_fff39ff0fc274c2293953cc94e8a6212(Integer[] nums, Integer right, Integer left){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_2230b4f64aa04937bfa42f1a53c335c1(Integer[] nums, Integer right, Integer left){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return right;
+}
+public static Integer func_06cc616478b948949e84e47ba59ad9a3(Integer[] nums, Integer right, Integer left){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return right;
+}
+
+
+****** Cluster 60 ******
+public static Integer func_5809cf80432d411f89fce2016c826f80(Integer right, Integer left, Integer[] nums){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_f2bf525741b2483aa14dc3915da045ee(Integer right, Integer left, Integer[] nums){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_6af53dfa6cc3421798eaf101674135aa(Integer right, Integer left, Integer[] nums){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 61 ******
+public static Integer func_61ebfbf7eb7147438bdca7e8ff900b6e(Integer left, Integer right, Integer[] nums){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_6486ede5fccd4dad82d40b5fed4fe3d3(Integer left, Integer right, Integer[] nums){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_543b69c1594c413e85c3bd5ec5ee9463(Integer left, Integer right, Integer[] nums){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 62 ******
+public static Integer func_cc15a72002544031ba89cd734d9fc19d(Integer right, Integer[] nums, Integer left){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_d8c74dcda0f14feb89e8796bce6065d3(Integer right, Integer[] nums, Integer left){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_6839f9a3a70a41d9b28dc0ff183c3c3e(Integer right, Integer[] nums, Integer left){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 63 ******
+public static Integer func_65752be3008449bc97e14a15dfe6c807(Integer left, Integer[] nums, Integer right){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_e62421d8f0064efc9e80f19fe0c4e7b2(Integer left, Integer[] nums, Integer right){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_5e971046608346a4b60e7986ec6f4921(Integer left, Integer[] nums, Integer right){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return left;
+}
+
+
+****** Cluster 64 ******
+public static Integer func_d4adf3ae297e4f888d4127fd099d58e2(Integer[] nums, Integer right, Integer left){
+    while (left < right) {
+        // 18
+        // 19
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 20
+            // 21
+            left = mid + 1;
+        } else {
+            // 22
+            // 23
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_bfe9476876c0436da9311a5fba4d00fd(Integer[] nums, Integer right, Integer left){
+    while (left < right) {
+        // 41
+        // 42
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 43
+            // 44
+            left = mid + 1;
+        } else {
+            // 45
+            // 46
+            right = mid;
+        }
+    }
+    return left;
+}
+public static Integer func_b9c948e8edff4e1784043bae6765cc46(Integer[] nums, Integer right, Integer left){
+    while (left < right) {
+        // 48
+        // 49
+        int mid = left + (right - left) / 2;
+        if (nums[mid] > nums[right]) {
+            // 50
+            // 51
+            left = mid + 1;
+        } else {
+            // 52
+            // 53
+            right = mid;
+        }
+    }
+    return left;
+}

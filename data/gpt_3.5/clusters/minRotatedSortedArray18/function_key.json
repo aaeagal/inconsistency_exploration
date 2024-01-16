@@ -1,0 +1,41 @@
+{
+    "0.01": {
+        "search": [],
+        "findMin": [
+            "func_84afea5835804673b4f25a2ef5afadfa"
+        ],
+        "search2": [],
+        "findMin4": [
+            "func_dd06fbf4527d400d8cdd192ed1375038"
+        ],
+        "findMin7": [
+            "func_02f2e8be72a74f6da5b799e0fcb398fa"
+        ]
+    },
+    "0.05": {
+        "search": [],
+        "findMin": [
+            "func_84afea5835804673b4f25a2ef5afadfa"
+        ],
+        "search2": [],
+        "findMin4": [
+            "func_dd06fbf4527d400d8cdd192ed1375038"
+        ],
+        "findMin7": [
+            "func_02f2e8be72a74f6da5b799e0fcb398fa"
+        ]
+    },
+    "0.25": {
+        "search": [],
+        "findMin": [
+            "func_84afea5835804673b4f25a2ef5afadfa"
+        ],
+        "search2": [],
+        "findMin4": [
+            "func_dd06fbf4527d400d8cdd192ed1375038"
+        ],
+        "findMin7": [
+            "func_02f2e8be72a74f6da5b799e0fcb398fa"
+        ]
+    }
+}

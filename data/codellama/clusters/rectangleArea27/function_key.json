@@ -1,0 +1,23 @@
+{
+    "0.01": {
+        "getArea": [],
+        "getTotalArea": [],
+        "getTotalArea3": [],
+        "calculateAre4a": [],
+        "getAre7a": []
+    },
+    "0.05": {
+        "getArea": [],
+        "getTotalArea": [],
+        "getTotalArea3": [],
+        "calculateAre4a": [],
+        "getAre7a": []
+    },
+    "0.25": {
+        "getArea": [],
+        "getTotalArea": [],
+        "getTotalArea3": [],
+        "calculateAre4a": [],
+        "getAre7a": []
+    }
+}

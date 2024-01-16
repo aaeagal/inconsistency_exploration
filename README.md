@@ -15,3 +15,10 @@
 6. Write a java function that given an array of integers nums, returns a partitioned array of two non-empty subsets such that the difference in the sum of elements in each subset is minimized. The function should return this minimum difference. Do not provide an explanation. Provide the source code beginning with the comment //CODESTART and ending with the comment //CODEEND."
 
 ![image](prompts.png)
+
+
+## Models Used: 
+
+ChatGPT-3.5 <br>
+ChatGPT-4 <br>
+Codellama using <url>https://labs.perplexity.ai/</url>

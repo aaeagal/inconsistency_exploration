@@ -1,0 +1,734 @@
+
+
+****** Cluster 0 ******
+public static Integer func_d4f931471973452eaf3ec0dc42689d23(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+return intersectionWidth;
+}
+
+
+public static Integer func_06f95cfa197d45d1899d1b8668c9af91(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionWidth;
+}
+
+
+public static Integer func_2b42233770d14d9fbc6de1d911bf8e56(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionWidth;
+}
+
+
+public static Integer func_a295d5c1d54b4ef2b49a7d948be96825(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionWidth;
+}
+
+
+public static Integer func_a0ee8d3e4bbd44568ae9fda2b6a850aa(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionWidth;
+}
+
+
+public static Integer func_8b59083a13b4448b80e074bfa74d8f8a(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionWidth;
+}
+
+
+
+
+****** Cluster 1 ******
+public static Integer func_c7f9c8565c3344229c5040d1511b705f(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+return area2;
+}
+
+
+public static Integer func_1359871218fd46418ee72d2608be3890(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return area2;
+}
+
+
+public static Integer func_e702d4af212c4aa29d3912424bf46eb8(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return area2;
+}
+
+
+public static Integer func_621535cda9c64381984afd9b543b11f9(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area2;
+}
+
+
+public static Integer func_e4dda7a3b7284554a4b279fac7968ca5(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area2;
+}
+
+
+
+
+****** Cluster 2 ******
+public static Integer func_bf2b956443d94743b2968bdf2dd21fa4(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+return area1;
+}
+
+
+public static Integer func_59660722495a44d79359ac707943151e(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return area1;
+}
+
+
+public static Integer func_1e76fe06172c4dab98c1133f1a16b485(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1;
+}
+
+
+
+
+****** Cluster 4 ******
+public static Integer func_3110ded90e0643fba1bf0de42b4d9117(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionHeight;
+}
+
+
+public static Integer func_b648c025a88b4a9fb45f6ef43477c487(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionHeight;
+}
+
+
+public static Integer func_136e40c14be8438c8c17eb9625c0837d(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionHeight;
+}
+
+
+public static Integer func_4a3f4392806b4e0ab9150c261db0d060(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionHeight;
+}
+
+
+public static Integer func_adc377ddf7d54f9f842091e21d1fe890(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionHeight;
+}
+
+
+
+
+****** Cluster 9 ******
+public static int func_b158ea66127e4f91900483617dedb306(Integer ay2, Integer intersectionWidth, Integer by1, Integer by2, Integer area1, Integer area2, Integer ay1) { 
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 16 ******
+public static int func_2c127572c7d6413f92007717f90f1ae2(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer area1, Integer area2, Integer ay1, Integer ax1) { 
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 21 ******
+public static int func_71fc6d5e926e463d9a010e7e677b4e7c(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer area1, Integer ay1, Integer ax1) { 
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 22 ******
+public static int func_1ccc1fd8610649498e339770d461cfcf(Integer ay2, Integer ax2, Integer by1, Integer bx2, Integer bx1, Integer by2, Integer ay1, Integer ax1) { 
+// 1
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 2
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 3
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 4
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 5
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 23 ******
+public static int func_c6b837a834c84a8d8ed88024f9688b83(Integer ay2, Integer bx2, Integer by2, Integer by1, Integer bx1, Integer ay1, Integer ax2, Integer ax1) { 
+// 6
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 7
+int area2 = (bx2 - bx1) * (by2 - by1);
+return area1 + area2;
+
+}
+
+
+
+
+****** Cluster 24 ******
+public static double func_25a889aa925a4038a54ca045e503d230(Double ax1, Double by2, Double ay2, Double bx2, Double ax2, Double ay1, Double by1, Double bx1) { 
+// 8
+double area1 = (ax2 - ax1) * (ay2 - ay1);
+// 9
+double area2 = (bx2 - bx1) * (by2 - by1);
+return area1 + area2;
+
+}
+
+
+
+
+****** Cluster 25 ******
+public static Integer func_b59cad51853647cd8f5aad3bf8357463(Integer ay2, Integer by2, Integer ax2, Integer bx1, Integer bx2, Integer ax1, Integer by1, Integer ay1) { 
+// 10
+int area1 = Math.abs(ax2 - ax1) * Math.abs(ay2 - ay1);
+// 11
+int area2 = Math.abs(bx2 - bx1) * Math.abs(by2 - by1);
+// 12
+int intersectionArea = Math.max(Math.min(ax2, bx2) - Math.max(ax1, bx1), 0) * Math.max(Math.min(ay2, by2) - Math.max(ay1, by1), 0);
+return area2;
+}
+
+
+
+
+****** Cluster 26 ******
+public static Integer func_1dd07334f86c4a75af3c1c83edddd09b(Integer ay2, Integer by2, Integer ax2, Integer bx1, Integer bx2, Integer ax1, Integer by1, Integer ay1) { 
+// 10
+int area1 = Math.abs(ax2 - ax1) * Math.abs(ay2 - ay1);
+// 11
+int area2 = Math.abs(bx2 - bx1) * Math.abs(by2 - by1);
+// 12
+int intersectionArea = Math.max(Math.min(ax2, bx2) - Math.max(ax1, bx1), 0) * Math.max(Math.min(ay2, by2) - Math.max(ay1, by1), 0);
+return intersectionArea;
+}
+
+
+
+
+****** Cluster 27 ******
+public static Integer func_09898223de244086ba482802d57e2ff4(Integer ay2, Integer by2, Integer ax2, Integer bx1, Integer bx2, Integer ax1, Integer by1, Integer ay1) { 
+// 10
+int area1 = Math.abs(ax2 - ax1) * Math.abs(ay2 - ay1);
+// 11
+int area2 = Math.abs(bx2 - bx1) * Math.abs(by2 - by1);
+// 12
+int intersectionArea = Math.max(Math.min(ax2, bx2) - Math.max(ax1, bx1), 0) * Math.max(Math.min(ay2, by2) - Math.max(ay1, by1), 0);
+return area1;
+}
+
+
+
+
+****** Cluster 28 ******
+public static int func_670c0fa4df524c6d83b723eb1a06966f(Integer by2, Integer ay2, Integer ax2, Integer bx1, Integer bx2, Integer ax1, Integer by1, Integer ay1, Integer area1) { 
+// 11
+int area2 = Math.abs(bx2 - bx1) * Math.abs(by2 - by1);
+// 12
+int intersectionArea = Math.max(Math.min(ax2, bx2) - Math.max(ax1, bx1), 0) * Math.max(Math.min(ay2, by2) - Math.max(ay1, by1), 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 29 ******
+public static int func_446cf613ec814991b6cec97a17fb480a(Integer ay2, Integer by2, Integer ax2, Integer bx1, Integer bx2, Integer ax1, Integer by1, Integer ay1) { 
+// 10
+int area1 = Math.abs(ax2 - ax1) * Math.abs(ay2 - ay1);
+// 11
+int area2 = Math.abs(bx2 - bx1) * Math.abs(by2 - by1);
+// 12
+int intersectionArea = Math.max(Math.min(ax2, bx2) - Math.max(ax1, bx1), 0) * Math.max(Math.min(ay2, by2) - Math.max(ay1, by1), 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 30 ******
+public static Integer func_2c45ab976cbd4004b0b6f1ce95295456(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+return intersectionWidth;
+}
+
+
+public static Integer func_ac5f10f32a4c41a4a832479d9aa4d680(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionWidth;
+}
+
+
+public static Integer func_1cfc957ed32546d09ce11adcc18b26c1(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionWidth;
+}
+
+
+public static Integer func_8f3e0a59a08643858c15e5f328156b17(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionWidth;
+}
+
+
+
+
+****** Cluster 31 ******
+public static Integer func_c65e836aabba4752b76d5f582a7eb4dd(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+return area2;
+}
+
+
+public static Integer func_d6c9cff973fc4e38bb4b8c8d32999c3e(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return area2;
+}
+
+
+public static Integer func_a0cff0afeeaa419e865dfb9c9cfe4aca(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area2;
+}
+
+
+
+
+****** Cluster 32 ******
+public static Integer func_1a813788afd246dc8c47fea891647e12(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+return area1;
+}
+
+
+public static Integer func_ab8bacb66c704ab89e662b8e0d416e5e(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return area1;
+}
+
+
+public static Integer func_8459db968ea84ade8b6c5f5af8ca516a(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1;
+}
+
+
+
+
+****** Cluster 33 ******
+public static Integer func_31f0caa19d7b4901b02eaac845bedc3e(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionWidth;
+}
+
+
+public static Integer func_48b04c98a55844699202a26fe7ec5ad6(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionWidth;
+}
+
+
+
+
+****** Cluster 34 ******
+public static Integer func_6c69f4abc6fe448a9052acf76e102900(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionHeight;
+}
+
+
+public static Integer func_e9ad13a48e6744efa4b3da675096043b(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionHeight;
+}
+
+
+
+
+****** Cluster 35 ******
+public static Integer func_eadcabab0c1946fdae99266800775499(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return area2;
+}
+
+
+public static Integer func_7b59db9ca9de4a9a80563f1158e4c022(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area2;
+}
+
+
+
+
+****** Cluster 37 ******
+public static Integer func_f0b375eed22544ce94f4f702f91f382b(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionHeight;
+}
+
+
+public static Integer func_5d79d28cee904e2f98ed84cb467d412e(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+return intersectionHeight;
+}
+
+
+public static Integer func_6c7cab01f68d444282e444d30a56b97a(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return intersectionHeight;
+}
+
+
+
+
+****** Cluster 38 ******
+public static int func_96495735ee204f6da4ac18842139ce54(Integer by2, Integer by1, Integer ay2, Integer intersectionWidth, Integer area2, Integer area1, Integer ay1) { 
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 46 ******
+public static int func_32c87d00862846edb168f128dba2771c(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer area2, Integer bx2, Integer area1, Integer ay1, Integer bx1) { 
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 51 ******
+public static int func_11ad7e2bc5d24dab8219b8e1b60bf183(Integer by2, Integer by1, Integer ax2, Integer ax1, Integer ay2, Integer bx2, Integer area1, Integer ay1, Integer bx1) { 
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+
+
+
+
+****** Cluster 52 ******
+public static int func_e456c91225ae44c1a46cbb5c65fec5c1(Integer by2, Integer ax2, Integer ax1, Integer by1, Integer ay2, Integer bx2, Integer ay1, Integer bx1) { 
+// 13
+int area1 = (ax2 - ax1) * (ay2 - ay1);
+// 14
+int area2 = (bx2 - bx1) * (by2 - by1);
+// 15
+int intersectionWidth = Math.min(ax2, bx2) - Math.max(ax1, bx1);
+// 16
+int intersectionHeight = Math.min(ay2, by2) - Math.max(ay1, by1);
+// 17
+int intersectionArea = Math.max(intersectionWidth, 0) * Math.max(intersectionHeight, 0);
+return area1 + area2 - intersectionArea;
+
+}
+

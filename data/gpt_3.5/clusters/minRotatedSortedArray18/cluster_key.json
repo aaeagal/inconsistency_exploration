@@ -1,0 +1,41 @@
+{
+    "0.01": {
+        "search": [],
+        "findMin": [
+            "****** Cluster 54 ******"
+        ],
+        "search2": [],
+        "findMin4": [
+            "****** Cluster 54 ******"
+        ],
+        "findMin7": [
+            "****** Cluster 54 ******"
+        ]
+    },
+    "0.05": {
+        "search": [],
+        "findMin": [
+            "****** Cluster 54 ******"
+        ],
+        "search2": [],
+        "findMin4": [
+            "****** Cluster 54 ******"
+        ],
+        "findMin7": [
+            "****** Cluster 54 ******"
+        ]
+    },
+    "0.25": {
+        "search": [],
+        "findMin": [
+            "****** Cluster 54 ******"
+        ],
+        "search2": [],
+        "findMin4": [
+            "****** Cluster 54 ******"
+        ],
+        "findMin7": [
+            "****** Cluster 54 ******"
+        ]
+    }
+}

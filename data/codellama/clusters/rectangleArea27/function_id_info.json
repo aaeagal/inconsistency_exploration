@@ -1,0 +1,1 @@
+{"getArea": [1, 2, 3, 4, 5, "        return area1 + area2 - intersectionArea;\n"], "getTotalArea": [6, 7, "        return area1 + area2;\n"], "getTotalArea3": [8, 9, "        return area1 + area2;\n"], "calculateAre4a": [10, 11, 12, "        return area1 + area2 - intersectionArea;\n"], "getAre7a": [13, 14, 15, 16, 17, "        return area1 + area2 - intersectionArea;\n"]}
